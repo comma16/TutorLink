@@ -1,0 +1,18 @@
+@model TutorLink.Data.Entities.Mensaje
+@{ Layout = "~/Views/Shared/_Layout.cshtml"; }
+<h2>Enviar mensaje</h2>
+<form method="post" class="row g-3">
+  <input type="hidden" asp-for="DestinatarioId" />
+  <div class="col-md-6">
+    <label class="form-label">Remitente (StudentId)</label>
+    <input class="form-control" asp-for="RemitenteId" value="1"/>
+  </div>
+  <div class="col-12">
+    <label class="form-label">Mensaje</label>
+    <textarea class="form-control" asp-for="Texto"></textarea>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary">Enviar</button>
+    <a class="btn btn-secondary" href="/Tutorias">Cancelar</a>
+  </div>
+</form>

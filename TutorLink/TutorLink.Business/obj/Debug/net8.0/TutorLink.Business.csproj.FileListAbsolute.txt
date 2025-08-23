@@ -1,0 +1,15 @@
+C:\Users\jp118\Downloads\TutorLink\TutorLink.Business\bin\Debug\net8.0\TutorLink.Business.deps.json
+C:\Users\jp118\Downloads\TutorLink\TutorLink.Business\bin\Debug\net8.0\TutorLink.Business.dll
+C:\Users\jp118\Downloads\TutorLink\TutorLink.Business\bin\Debug\net8.0\TutorLink.Business.pdb
+C:\Users\jp118\Downloads\TutorLink\TutorLink.Business\bin\Debug\net8.0\TutorLink.Data.dll
+C:\Users\jp118\Downloads\TutorLink\TutorLink.Business\bin\Debug\net8.0\TutorLink.Data.pdb
+C:\Users\jp118\Downloads\TutorLink\TutorLink.Business\obj\Debug\net8.0\TutorLink.Business.csproj.AssemblyReference.cache
+C:\Users\jp118\Downloads\TutorLink\TutorLink.Business\obj\Debug\net8.0\TutorLink.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jp118\Downloads\TutorLink\TutorLink.Business\obj\Debug\net8.0\TutorLink.Business.AssemblyInfoInputs.cache
+C:\Users\jp118\Downloads\TutorLink\TutorLink.Business\obj\Debug\net8.0\TutorLink.Business.AssemblyInfo.cs
+C:\Users\jp118\Downloads\TutorLink\TutorLink.Business\obj\Debug\net8.0\TutorLink.Business.csproj.CoreCompileInputs.cache
+C:\Users\jp118\Downloads\TutorLink\TutorLink.Business\obj\Debug\net8.0\TutorLin.AB3A5F13.Up2Date
+C:\Users\jp118\Downloads\TutorLink\TutorLink.Business\obj\Debug\net8.0\TutorLink.Business.dll
+C:\Users\jp118\Downloads\TutorLink\TutorLink.Business\obj\Debug\net8.0\refint\TutorLink.Business.dll
+C:\Users\jp118\Downloads\TutorLink\TutorLink.Business\obj\Debug\net8.0\TutorLink.Business.pdb
+C:\Users\jp118\Downloads\TutorLink\TutorLink.Business\obj\Debug\net8.0\ref\TutorLink.Business.dll

@@ -1,0 +1,52 @@
+@model TutorLink.Data.Entities.Tutoria
+@{ ViewData["Title"] = "Detalle Tutoría"; Layout = "~/Views/Shared/_Layout.cshtml"; }
+<div class="row">
+  <div class="col-md-8">
+    <h2>@Model.Titulo</h2>
+    <p class="text-muted">@Model.Materia</p>
+    <p>@Model.Descripcion</p>
+    <p><strong>Precio/hora:</strong> @Model.PrecioHora</p>
+    <p><strong>Tutor:</strong> @Model.Student?.FirstName @Model.Student?.LastName (@Model.Student?.Email)</p>
+    <p><strong>Promedio:</strong> @ViewBag.Average.ToString("0.0") ⭐</p>
+
+    <h4 class="mt-4">Calificaciones</h4>
+    <ul class="list-group mb-3">
+      @if(Model.Calificaciones?.Any()==true){
+        foreach(var c in Model.Calificaciones.OrderByDescending(c=>c.Fecha)){
+          <li class="list-group-item">
+            <strong>@c.Puntaje</strong> ⭐ — @c.Comentario
+            <div class="text-muted small">@c.Fecha.ToLocalTime()</div>
+          </li>
+        }
+      } else {
+        <li class="list-group-item">Aún no hay calificaciones.</li>
+      }
+    </ul>
+
+    <h5>Agregar calificación</h5>
+    <form method="post" action="/Ratings/Create" class="row g-2">
+      <input type="hidden" name="TutoriaId" value="@Model.Id" />
+      <input type="hidden" name="StudentId" value="1" />
+      <input type="hidden" name="redirectTutoriaId" value="@Model.Id" />
+      <div class="col-md-2">
+        <label class="form-label">Puntaje</label>
+        <input class="form-control" type="number" name="Puntaje" min="1" max="5" value="5" />
+      </div>
+      <div class="col-md-8">
+        <label class="form-label">Comentario</label>
+        <input class="form-control" type="text" name="Comentario" />
+      </div>
+      <div class="col-md-2 d-flex align-items-end">
+        <button class="btn btn-primary w-100">Guardar</button>
+      </div>
+    </form>
+  </div>
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-body">
+        <h5>Contactar al tutor</h5>
+        <a class="btn btn-outline-secondary" href="/Messages/Create?toStudentId=@Model.StudentId">Enviar mensaje</a>
+      </div>
+    </div>
+  </div>
+</div>

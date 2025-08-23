@@ -1,0 +1,26 @@
+@model IEnumerable<TutorLink.Data.Entities.Tutoria>
+@{ ViewData["Title"] = "Tutorías"; Layout = "~/Views/Shared/_Layout.cshtml"; }
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h2>Tutorías disponibles</h2>
+  <a class="btn btn-success" href="/Tutorias/Create">Publicar Tutoría</a>
+</div>
+@if (TempData["Ok"] != null) { <div class="alert alert-success">@TempData["Ok"]</div> }
+<div class="row">
+@foreach (var t in Model)
+{
+  var avg = t.Calificaciones?.Any()==true ? t.Calificaciones.Average(c=>c.Puntaje) : 0;
+  <div class="col-md-6">
+    <div class="card mb-3">
+      <div class="card-body">
+        <h5 class="card-title">@t.Titulo</h5>
+        <h6 class="card-subtitle text-muted">@t.Materia</h6>
+        <p class="card-text mt-2">@t.Descripcion</p>
+        <p class="mb-1"><strong>Precio/hora:</strong> @t.PrecioHora</p>
+        <p class="mb-1"><strong>Tutor:</strong> @t.Student?.FirstName @t.Student?.LastName</p>
+        <p class="mb-1"><strong>Promedio:</strong> @(avg.ToString("0.0")) ⭐</p>
+        <a class="btn btn-primary" href="/Tutorias/Details/@t.Id">Ver detalles</a>
+      </div>
+    </div>
+  </div>
+}
+</div>

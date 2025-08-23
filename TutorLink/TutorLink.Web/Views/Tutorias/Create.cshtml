@@ -1,0 +1,29 @@
+@model TutorLink.Data.Entities.Tutoria
+@{ Layout = "~/Views/Shared/_Layout.cshtml"; }
+<h2>Publicar Tutoría</h2>
+<form method="post" class="row g-3">
+  <div class="col-md-6">
+    <label class="form-label">Título</label>
+    <input class="form-control" asp-for="Titulo"/>
+  </div>
+  <div class="col-md-6">
+    <label class="form-label">Materia</label>
+    <input class="form-control" asp-for="Materia"/>
+  </div>
+  <div class="col-12">
+    <label class="form-label">Descripción</label>
+    <textarea class="form-control" asp-for="Descripcion"></textarea>
+  </div>
+  <div class="col-md-4">
+    <label class="form-label">Precio por hora</label>
+    <input class="form-control" asp-for="PrecioHora" type="number" step="1"/>
+  </div>
+  <div class="col-md-4">
+    <label class="form-label">Tutor (StudentId)</label>
+    <input class="form-control" asp-for="StudentId" type="number"/>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary">Publicar</button>
+    <a class="btn btn-secondary" href="/Tutorias">Cancelar</a>
+  </div>
+</form>

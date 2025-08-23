@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/TutorLink.Web/css/site.6j8kiobotc.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6j8kiobotc"},{"Name":"integrity","Value":"sha256-zjVM4F1cUZncG898sBK4fEC\u002B7XN5lqvymBPVUDCDi5I="},{"Name":"label","Value":"_content/TutorLink.Web/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"34"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022zjVM4F1cUZncG898sBK4fEC\u002B7XN5lqvymBPVUDCDi5I=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Aug 2025 05:38:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TutorLink.Web/css/site.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zjVM4F1cUZncG898sBK4fEC\u002B7XN5lqvymBPVUDCDi5I="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"34"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022zjVM4F1cUZncG898sBK4fEC\u002B7XN5lqvymBPVUDCDi5I=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Aug 2025 05:38:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

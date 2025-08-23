@@ -1,0 +1,24 @@
+@model IEnumerable<TutorLink.Data.Entities.Student>
+@{ ViewData["Title"] = "Estudiantes"; Layout = "~/Views/Shared/_Layout.cshtml"; }
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h2>Estudiantes</h2>
+  <a class="btn btn-success" href="/Students/Create">Crear</a>
+</div>
+<table class="table table-striped">
+  <thead><tr><th>Nombre</th><th>Email</th><th>Habilidades</th><th>Necesita ayuda</th><th></th></tr></thead>
+  <tbody>
+  @foreach (var s in Model)
+  {
+    <tr>
+      <td>@s.FirstName @s.LastName</td>
+      <td>@s.Email</td>
+      <td>@s.Skills</td>
+      <td>@s.NeedsHelpIn</td>
+      <td>
+        <a class="btn btn-sm btn-outline-primary" href="/Students/Edit/@s.Id">Editar</a>
+        <a class="btn btn-sm btn-outline-danger" href="/Students/Delete/@s.Id">Eliminar</a>
+      </td>
+    </tr>
+  }
+  </tbody>
+</table>

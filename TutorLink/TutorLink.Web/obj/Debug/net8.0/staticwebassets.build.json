@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "jvWr/kU9eQS8LZgRdml5jh6jAX2lMDApHp8hXUrvaRU=",
+  "Source": "TutorLink.Web",
+  "BasePath": "_content/TutorLink.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TutorLink.Web\\wwwroot",
+      "Source": "TutorLink.Web",
+      "ContentRoot": "C:\\Users\\jp118\\Downloads\\TutorLink\\TutorLink.Web\\wwwroot\\",
+      "BasePath": "_content/TutorLink.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\jp118\\Downloads\\TutorLink\\TutorLink.Web\\wwwroot\\css\\site.css",
+      "SourceId": "TutorLink.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jp118\\Downloads\\TutorLink\\TutorLink.Web\\wwwroot\\",
+      "BasePath": "_content/TutorLink.Web",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6j8kiobotc",
+      "Integrity": "zjVM4F1cUZncG898sBK4fEC+7XN5lqvymBPVUDCDi5I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.6j8kiobotc.css",
+      "AssetFile": "C:\\Users\\jp118\\Downloads\\TutorLink\\TutorLink.Web\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zjVM4F1cUZncG898sBK4fEC+7XN5lqvymBPVUDCDi5I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 17 Aug 2025 05:38:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6j8kiobotc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zjVM4F1cUZncG898sBK4fEC+7XN5lqvymBPVUDCDi5I="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\jp118\\Downloads\\TutorLink\\TutorLink.Web\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zjVM4F1cUZncG898sBK4fEC+7XN5lqvymBPVUDCDi5I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 17 Aug 2025 05:38:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zjVM4F1cUZncG898sBK4fEC+7XN5lqvymBPVUDCDi5I="
+        }
+      ]
+    }
+  ]
+}

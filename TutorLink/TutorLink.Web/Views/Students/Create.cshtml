@@ -1,0 +1,34 @@
+@model TutorLink.Data.Entities.Student
+@{ Layout = "~/Views/Shared/_Layout.cshtml"; }
+<h2>@(Model.Id==0?"Crear":"Editar") Estudiante</h2>
+<form method="post" class="row g-3">
+  <input type="hidden" asp-for="Id" />
+  <div class="col-md-6">
+    <label class="form-label">Nombre</label>
+    <input class="form-control" asp-for="FirstName"/>
+  </div>
+  <div class="col-md-6">
+    <label class="form-label">Apellido</label>
+    <input class="form-control" asp-for="LastName"/>
+  </div>
+  <div class="col-md-6">
+    <label class="form-label">Email</label>
+    <input class="form-control" asp-for="Email"/>
+  </div>
+  <div class="col-md-6">
+    <label class="form-label">Carrera</label>
+    <input class="form-control" asp-for="Career"/>
+  </div>
+  <div class="col-md-6">
+    <label class="form-label">Materias que domina</label>
+    <input class="form-control" asp-for="Skills"/>
+  </div>
+  <div class="col-md-6">
+    <label class="form-label">Materias donde necesita ayuda</label>
+    <input class="form-control" asp-for="NeedsHelpIn"/>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary">Guardar</button>
+    <a class="btn btn-secondary" href="/Students">Cancelar</a>
+  </div>
+</form>

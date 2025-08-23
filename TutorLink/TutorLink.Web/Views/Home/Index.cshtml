@@ -1,0 +1,52 @@
+@{
+    ViewData["Title"] = "Inicio";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="p-5 mb-4 bg-light rounded-3 shadow-sm">
+    <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">Portal de Intercambio de Clases</h1>
+        <p class="col-md-10 fs-5">
+            Encuentra tutorías en las materias que necesitas y comparte lo que dominas con otros estudiantes.
+        </p>
+
+        <div class="mt-4">
+            <a class="btn btn-primary btn-lg me-2" href="/Tutorias">Ver tutorías</a>
+            <a class="btn btn-outline-success btn-lg me-2" href="/Account/Login">Iniciar sesión</a>
+            <a class="btn btn-outline-dark btn-lg" href="/Account/Register">Registrarse</a>
+        </div>
+    </div>
+</div>
+
+<div class="row text-center mt-5">
+    <div class="col-md-4">
+        <div class="card shadow-sm border-0 h-100">
+            <div class="card-body">
+                <h5 class="card-title fw-bold">Accede fácilmente</h5>
+                <p class="card-text">Crea una cuenta en minutos o inicia sesión con tu usuario.</p>
+                <a href="/Account/Register" class="btn btn-sm btn-dark">Registrarme</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card shadow-sm border-0 h-100">
+            <div class="card-body">
+                <h5 class="card-title fw-bold">Explora tutorías</h5>
+                <p class="card-text">Revisa las materias disponibles y encuentra tutores en segundos.</p>
+                <a href="/Tutorias" class="btn btn-sm btn-primary">Ver tutorías</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card shadow-sm border-0 h-100">
+            <div class="card-body">
+                <h5 class="card-title fw-bold">Comparte tu conocimiento</h5>
+                <p class="card-text">Ofrece clases y ayuda a otros a aprender lo que dominas.</p>
+                <a href="/Account/Login" class="btn btn-sm btn-success">Comenzar</a>
+            </div>
+        </div>
+    </div>
+</div>
+S

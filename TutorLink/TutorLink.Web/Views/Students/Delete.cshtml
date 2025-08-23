@@ -1,0 +1,8 @@
+@model TutorLink.Data.Entities.Student
+@{ Layout = "~/Views/Shared/_Layout.cshtml"; }
+<h2>Eliminar Estudiante</h2>
+<p>¿Seguro que deseas eliminar a <strong>@Model.FirstName @Model.LastName</strong>?</p>
+<form method="post">
+  <button class="btn btn-danger">Eliminar</button>
+  <a class="btn btn-secondary" href="/Students">Cancelar</a>
+</form>

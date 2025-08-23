@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TutorLink.Web", "TutorLink.Web\TutorLink.Web.csproj", "{C1F5A9D7-C0C7-4E7D-9B6B-DA4D59E6D9E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TutorLink.Business", "TutorLink.Business\TutorLink.Business.csproj", "{A0F1B9B7-8FC4-4E64-9B55-50D2C7DBA10B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TutorLink.Data", "TutorLink.Data\TutorLink.Data.csproj", "{B2BCE2BE-6D2F-4E0D-9F2E-8E36CF6B40B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1F5A9D7-C0C7-4E7D-9B6B-DA4D59E6D9E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1F5A9D7-C0C7-4E7D-9B6B-DA4D59E6D9E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1F5A9D7-C0C7-4E7D-9B6B-DA4D59E6D9E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1F5A9D7-C0C7-4E7D-9B6B-DA4D59E6D9E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0F1B9B7-8FC4-4E64-9B55-50D2C7DBA10B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0F1B9B7-8FC4-4E64-9B55-50D2C7DBA10B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0F1B9B7-8FC4-4E64-9B55-50D2C7DBA10B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0F1B9B7-8FC4-4E64-9B55-50D2C7DBA10B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2BCE2BE-6D2F-4E0D-9F2E-8E36CF6B40B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2BCE2BE-6D2F-4E0D-9F2E-8E36CF6B40B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2BCE2BE-6D2F-4E0D-9F2E-8E36CF6B40B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2BCE2BE-6D2F-4E0D-9F2E-8E36CF6B40B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
